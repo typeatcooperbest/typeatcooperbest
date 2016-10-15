@@ -1,15 +1,18 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: Peoplefaces
+permalink: /peoplefaces/
 ---
+Things about the class
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Students
+list of students w/photo
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+## Teachers
+list of teachers w/photo
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## Other Thanks
+other people that helped
+
+## Maybe some things about the program
+link to main type@cooper website
