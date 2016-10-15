@@ -1,3 +1,5 @@
+$break-small: 500px;
+
 *,
 *:before,
 *:after {
@@ -48,6 +50,9 @@ strong {
   opacity: 0.55;
   text-decoration: none;
   transition: all 100ms ease;
+  @media screen and (max-width: $break-small) {
+    font-size: 0.9rem;
+  }
 
   &:hover {
     opacity: 1;
@@ -79,7 +84,12 @@ strong {
   text-align: center;
   text-shadow: 2px 2px 3px grey;
   text-transform: uppercase;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 3rem;
+  }
 }
+
 
 .title--credit {
   border-bottom: 2px solid aquamarine;
