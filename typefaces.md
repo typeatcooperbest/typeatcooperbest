@@ -3,11 +3,16 @@ layout: default
 title: typefaces
 permalink: /typefaces/
 ---
-<h1 class="title">Here they are</h1>
+
 
 <ul class="list--typefaces">
 {% for typeface in site.typefaces %}
-    <li class="js-card list--typefaces__item"><a class="list--typefaces__link" href="{{ typeface.permalink }}">{{ typeface.title}} by {{ typeface.designer }}</a> </li>
+    <li class="js-card list--typefaces__item">
+      <a class="list--typefaces__link" href="{{ typeface.permalink }}">
+      <svg class="icon icon-thumb icon-{{ typeface.title}}"><use xlink:href="#icon-{{ typeface.title }}-thumb"></use></svg>
+      <span class="list--typefaces__title">{{ typeface.title}} by {{ typeface.designer }}</span>
+      </a>
+    </li>
 {% endfor %}
 </ul>
 

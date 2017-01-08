@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Peoplefaces
-permalink: /peoplefaces/
+title: about
+permalink: /about/
 ---
 Things about the class
 

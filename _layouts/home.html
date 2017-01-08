@@ -1,7 +1,17 @@
 {% include header.html %}
 
-<section class="content--main">
+<div class="background-container">
+  <svg class="icon icon-logo-bg"><use xlink:href="#icon-logo"></use></svg>
+</div>
+
+<div class="home">
+<a href="/typefaces/" class="link--home"><span class="icon-left">👀</span>See Typefaces<span class="icon-right">➽</span></a>
+
+<section class="content--home">
 {{ content }}
 
 </section>
-{% include footer.html %}
+
+<a href="/about/" class="link--home"><span class="icon-left">🎉</span>About and Thanks<span class="icon-right">👏</span></a>
+
+</div>
