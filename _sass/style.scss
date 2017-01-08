@@ -109,6 +109,45 @@ strong {
   width: 100%;
 }
 
+.link--back {
+  border-bottom: 1px solid $off-white;
+  color: $white;
+  display: flex;
+  font-size: 1em;
+  line-height: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: $time ease;
+  width: 100%;
+
+  align-items: center;
+  flex-grow: 0.2;
+  justify-content: center;
+  .icon-right {
+    padding-left: 1%;
+    transform: translateY(2px) scale(2);
+    transition: $time ease;
+  }
+  .icon-left {
+    padding-right: 1%;
+    transform: translateY(2px) scale(2);
+    transition: $time ease;
+  }
+
+  &:hover {
+    font-size: 1.2em;
+    .icon-right {
+      transform: translateX(100%) translateY(3px) scale(2.2);
+      transition: $time ease;
+    }
+    .icon-left {
+      transform: translateX(-100%) translateY(3px) scale(2.2);
+      transition: $time ease;
+    }
+  }
+}
+
 .content--main {
   margin-left: auto;
   margin-right: auto;
