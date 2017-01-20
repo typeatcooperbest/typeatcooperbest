@@ -111,9 +111,10 @@ strong {
 
 .link--back {
   border-bottom: 1px solid $off-white;
-  color: $white;
+  color: $off-white;
   display: flex;
   font-size: 1em;
+  height: 8rem;
   line-height: 0;
   position: relative;
   text-align: center;
@@ -148,16 +149,18 @@ strong {
   }
 }
 
-.content--main {
+.content {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
   padding-left: 2.5%;
   padding-right: 2.5%;
   padding-top: 30px;
+  width: 100%;
 
   flex: 1;
 }
+
 
 .title {
   color: $white;
@@ -233,8 +236,7 @@ p {
 }
 
 .list--typefaces__link {
-  border-bottom: 1px solid $off-white;
-  border-top: 1px solid $off-white;
+  border: 1px solid $black;
   color: $white;
   display: flex;
   flex-direction: column;
@@ -267,6 +269,15 @@ p {
 
 .list--typefaces__title {
   display: inline-block;
+}
+
+.typeface__images {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  img {
+    width: 100%;
+  }
 }
 
 .footer--main {

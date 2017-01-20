@@ -3,5 +3,21 @@ layout: typeface_individual
 title: victus
 designer: Gen
 permalink: /victus/
+
+sections:
+  typefaceBlurb: This is the part about Victus
+  bio: Here's Gen's bio
+
+instagram: genramirez
+twitter: genramirez
+
+
 ---
-Here is where {{ page.designer }} would write something incredibly interesting about {{ page.title }}.
+
+<div class="typeface__images">
+{% for file in site.static_files %}
+  {% if file.path contains 'img/victus/' %}
+    <img src="{{ file.path }}" />
+  {% endif %}
+{% endfor %}
+</div>

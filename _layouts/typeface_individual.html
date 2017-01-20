@@ -1,11 +1,26 @@
 {% include header.html %}
 
-<a href="/typefaces/" class="link--back"><span class="icon-left">☜</span>Back to Typefaces<span class="icon-right">👀</span></a>
+<a href="/typefaces/" class="link--back"><span class="icon-left">☜</span>Back to Typefaces</a>
 
 <h1 class="title">{{ page.title }}</h1>
-<section class="content--main">
+
+<h3 class="title--credit">made by {{ page.designer }}</h3>
+<section class="content content--blurb">
+<p>
+{{ page.sections['typefaceBlurb'] | textilize }}
+</p>
+
 {{ content }}
 
 </section>
 
-<h3 class="title--credit">made by {{ page.designer }}</h3>
+<section class="content content--bio">
+  <p>
+{{ page.sections['bio'] | textilize }}
+  </p>
+  <h3 class="social">
+    {% if page.instagram %}
+      <a href="https://www.instagram.com/{{ page.instagram }}/"><img src="../img/instagram.svg"></a>
+    {% endif %}
+  </h3>
+</section>
