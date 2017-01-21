@@ -1,15 +1,18 @@
 ---
 layout: typeface_individual
 title: victus
-designer: Gen
+designer: Gen Ramirez
 permalink: /victus/
 
 sections:
   typefaceBlurb: This is the part about Victus
   bio: Here's Gen's bio
 
+website: genramirez.com
 instagram: genramirez
 twitter: genramirez
+facebook: genramirez
+linkedin: genramirez
 
 
 ---

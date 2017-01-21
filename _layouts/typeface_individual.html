@@ -2,10 +2,16 @@
 
 <a href="/typefaces/" class="link--back"><span class="icon-left">☜</span>Back to Typefaces</a>
 
-<h1 class="title">{{ page.title }}</h1>
+<div class="content">
 
-<h3 class="title--credit">made by {{ page.designer }}</h3>
-<section class="content content--blurb">
+<input id="blurb" type="radio" name="tabs" checked>
+<label class="label--blurb" for="blurb">{{ page.title }}</label>
+
+<input id="bio" type="radio" name="tabs">
+<label class="label--bio" for="bio">About {{ page.designer }}</label>
+
+
+<section id="contentBlurb" class=" content--tabs">
 <p>
 {{ page.sections['typefaceBlurb'] | textilize }}
 </p>
@@ -14,13 +20,27 @@
 
 </section>
 
-<section class="content content--bio">
+<section id="contentBio" class=" content--tabs">
   <p>
 {{ page.sections['bio'] | textilize }}
   </p>
-  <h3 class="social">
+  <div class="social">
+    {% if page.website %}
+      <a class="social__link" href="http://{{ page.website }}/"><img src="../img/website.svg"></a>
+    {% endif %}
     {% if page.instagram %}
-      <a href="https://www.instagram.com/{{ page.instagram }}/"><img src="../img/instagram.svg"></a>
+      <a class="social__link" href="http://www.instagram.com/{{ page.instagram }}/"><img src="../img/instagram.svg"></a>
+    {% endif %}
+    {% if page.facebook %}
+      <a class="social__link" href="http://www.facebook.com/{{ page.facebook }}/"><img src="../img/facebook.svg"></a>
+    {% endif %}
+    {% if page.twitter %}
+      <a class="social__link" href="http://www.twitter.com/{{ page.twitter }}/"><img src="../img/twitter.svg"></a>
+    {% endif %}
+    {% if page.linkedin %}
+      <a class="social__link" href="http://www.linkedin.com/{{ page.linkedin }}/"><img src="../img/linkedin.svg"></a>
     {% endif %}
   </h3>
 </section>
+
+</div>

@@ -110,10 +110,9 @@ strong {
 }
 
 .link--back {
-  border-bottom: 1px solid $off-white;
   color: $off-white;
   display: flex;
-  font-size: 1em;
+  font-size: 0.85rem;
   height: 8rem;
   line-height: 0;
   position: relative;
@@ -123,7 +122,6 @@ strong {
   width: 100%;
 
   align-items: center;
-  flex-grow: 0.2;
   justify-content: center;
   .icon-right {
     padding-left: 2%;
@@ -153,8 +151,6 @@ strong {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
   padding-top: 30px;
   width: 100%;
 
@@ -190,11 +186,15 @@ strong {
 p {
   color: $off-white;
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 70ch;
   padding-bottom: 20px;
   padding-top: 20px;
   width: 100%;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 1rem;
+  }
 }
 
 .link--typefaces {
@@ -236,14 +236,10 @@ p {
 }
 
 .list--typefaces__link {
-  border: 1px solid $black;
   color: $white;
   display: flex;
   flex-direction: column;
   padding-bottom: 5%;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 5.5%;
   text-decoration: none;
   transition: all 200ms ease;
 
@@ -252,10 +248,10 @@ p {
 
   @media screen and (max-width: $break-small) {
     border-bottom: 0;
+    margin-bottom: 2rem;
   }
 
   &:hover {
-    background: $black;
     box-shadow: 0 0 12px $black;
     color: $white;
     transform: scale(1.05);
@@ -279,6 +275,101 @@ p {
     width: 100%;
   }
 }
+
+
+//make tabs go
+
+.content--tabs {
+  clear: both;
+  height: 0;
+  opacity: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+  transition: all ease $time;
+  visibility: hidden;
+}
+
+input {
+  border: none;
+  display: none;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  width: 0;
+}
+
+label {
+  border-top: 1px solid $off-white;
+  display: flex;
+  float: left;
+  font-size: 1.2rem;
+  height: 5rem;
+  text-transform: capitalize;
+  width: 48%;
+
+  align-items: center;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 1rem;
+  }
+
+  &.label--blurb {
+    margin-left: 2%;
+    padding-left: 2%;
+    text-align: left;
+
+    justify-content: flex-start;
+  }
+
+  &.label--bio {
+    margin-right: 2%;
+    padding-right: 2%;
+    text-align: right;
+
+    justify-content: flex-end;
+  }
+}
+
+label:hover {
+  color: $white;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: $white;
+}
+
+#blurb:checked ~ #contentBlurb,
+#bio:checked ~ #contentBio, {
+  height: auto;
+  opacity: 1;
+  transition: all ease $time;
+  visibility: visible;
+}
+
+//bio
+.social {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.social__link {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 2rem;
+
+
+  img {
+    width: 100%;
+  }
+}
+
+
+//footer
 
 .footer--main {
   border-top: 1px solid $black;
