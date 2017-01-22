@@ -27,7 +27,6 @@ markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     disable : true
-highlighter: none
 gems:
   - jekyll-feed
 exclude:
