@@ -37,3 +37,38 @@
 
 7. You're done! DON'T click merge. 
   ![image](https://cloud.githubusercontent.com/assets/4615568/22615328/7ff4a30a-ea47-11e6-8af3-388436855f41.png)
+  
+# How to add your images
+1. Click on the `img` folder 
+  ![image](https://cloud.githubusercontent.com/assets/4615568/22615342/cc87a776-ea47-11e6-909a-7a115114c2db.png)
+
+
+
+2. Find your typeface folder
+  ![image](https://cloud.githubusercontent.com/assets/4615568/22615396/e5ec91da-ea48-11e6-9314-64428bf3b176.png)
+
+
+
+3. once you are in the folder, click on `Upload Files`
+  ![image](https://cloud.githubusercontent.com/assets/4615568/22615407/1ad95e96-ea49-11e6-888d-66de4c20fb85.png)
+
+
+
+4. Drag your files in or select them for upload. Go through the commit process, you can just commit this change directly to `master`. Don't worry about what that means.
+  ![image](https://cloud.githubusercontent.com/assets/4615568/22615456/0698c736-ea4a-11e6-8636-1418acd7c8ff.png)
+
+
+
+# How delete an image
+1. Navigate to the folder for your images. Find the image called 'delete-this.png' and click on it.
+
+
+
+2. Once you are on the preview screen for the image, click on the trashcan icon.
+  ![image](https://cloud.githubusercontent.com/assets/4615568/22615448/e8e3512a-ea49-11e6-885b-114e73098403.png)
+
+
+
+3. Go through the commit process, you can just commit this change directly to `master`. Don't worry about what that means.
+  ![image](https://cloud.githubusercontent.com/assets/4615568/22615456/0698c736-ea4a-11e6-8636-1418acd7c8ff.png)
+
