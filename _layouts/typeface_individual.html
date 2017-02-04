@@ -20,10 +20,16 @@
 
 </section>
 
-<section id="contentBio" class=" content--tabs">
-  <p>
-{{ page.sections['bio'] | textilize }}
-  </p>
+<section id="contentBio" class="content--tabs">
+  <!-- <img src="/img/{{ typeface.title }}-designer.svg"> -->
+  <div class="content--bio">
+    <div class="portrait">
+      <img src="/img/generic-designer.svg">
+    </div>
+    <p class="bio">
+  {{ page.sections['bio'] | textilize }}
+    </p>
+  </div>
   <div class="social">
     {% if page.website %}
       <a target="blank" class="social__link" href="http://{{ page.website }}/"><img src="../img/website.svg"></a>
