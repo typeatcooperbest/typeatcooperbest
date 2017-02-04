@@ -9,11 +9,11 @@ sections:
   typefaceBlurb: This is the part about Florence
   bio: Here's Kim's bio
 
-  website: yourwebsite
-  instagram: yourinstagram
-  twitter: yourtwitter
-  facebook: yourfacebook
-  linkedin: yourlinkedin
+website: yourwebsite
+instagram: yourinstagram
+twitter: yourtwitter
+facebook: yourfacebook
+linkedin: yourlinkedin
 
 
 ---
