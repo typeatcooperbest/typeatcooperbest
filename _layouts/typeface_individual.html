@@ -5,7 +5,7 @@
 <div class="content">
 
 <input id="blurb" type="radio" name="tabs" checked>
-<label class="label--blurb" for="blurb">{{ page.title }}</label>
+<label class="label--blurb" for="blurb">{{ page.typeface }}</label>
 
 <input id="bio" type="radio" name="tabs">
 <label class="label--bio" for="bio">About {{ page.designer }}</label>
@@ -26,19 +26,19 @@
   </p>
   <div class="social">
     {% if page.website %}
-      <a class="social__link" href="http://{{ page.website }}/"><img src="../img/website.svg"></a>
+      <a target="blank" class="social__link" href="http://{{ page.website }}/"><img src="../img/website.svg"></a>
     {% endif %}
     {% if page.instagram %}
-      <a class="social__link" href="http://www.instagram.com/{{ page.instagram }}/"><img src="../img/instagram.svg"></a>
+      <a target="blank" class="social__link" href="http://www.instagram.com/{{ page.instagram }}/"><img src="../img/instagram.svg"></a>
     {% endif %}
     {% if page.facebook %}
-      <a class="social__link" href="http://www.facebook.com/{{ page.facebook }}/"><img src="../img/facebook.svg"></a>
+      <a target="blank" class="social__link" href="http://www.facebook.com/{{ page.facebook }}/"><img src="../img/facebook.svg"></a>
     {% endif %}
     {% if page.twitter %}
-      <a class="social__link" href="http://www.twitter.com/{{ page.twitter }}/"><img src="../img/twitter.svg"></a>
+      <a target="blank" class="social__link" href="http://www.twitter.com/{{ page.twitter }}/"><img src="../img/twitter.svg"></a>
     {% endif %}
     {% if page.linkedin %}
-      <a class="social__link" href="http://www.linkedin.com/{{ page.linkedin }}/"><img src="../img/linkedin.svg"></a>
+      <a target="blank" class="social__link" href="http://www.linkedin.com/{{ page.linkedin }}/"><img src="../img/linkedin.svg"></a>
     {% endif %}
   </h3>
 </section>

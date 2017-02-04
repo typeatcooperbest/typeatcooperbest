@@ -1,13 +1,13 @@
 ---
 layout: typeface_individual
-title: harmon
-typeface: Harmon
-designer: Sonja Hernandez
-permalink: /harmon/
+title: ickhambay
+typeface: Ickhambay
+designer: Camile Sibucao
+permalink: /ickhambay/
 
 sections:
-  typefaceBlurb: This is the part about Harmon
-  bio: Here's Sonja's bio
+  typefaceBlurb: This is the part about Ickhambay
+  bio: Here's Camile's bio
 
 website: yourwebsite
 instagram: yourinstagram
@@ -20,7 +20,7 @@ linkedin: yourlinkedin
 
 <div class="typeface__images">
 {% for file in site.static_files %}
-  {% if file.path contains 'img/harmon/' %}
+  {% if file.path contains 'img/ickhambay/' %}
     <img src="{{ file.path }}" />
   {% endif %}
 {% endfor %}

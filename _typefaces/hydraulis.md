@@ -1,13 +1,13 @@
 ---
 layout: typeface_individual
-title: harmon
-typeface: Harmon
-designer: Sonja Hernandez
-permalink: /harmon/
+title: hydraulis
+typeface: Hydraulis
+designer: Lauren Hostetter
+permalink: /hydraulis/
 
 sections:
-  typefaceBlurb: This is the part about Harmon
-  bio: Here's Sonja's bio
+  typefaceBlurb: This is the part about Hydraulis
+  bio: Here's Lauren's bio
 
 website: yourwebsite
 instagram: yourinstagram
@@ -20,7 +20,7 @@ linkedin: yourlinkedin
 
 <div class="typeface__images">
 {% for file in site.static_files %}
-  {% if file.path contains 'img/harmon/' %}
+  {% if file.path contains 'img/hydraulis/' %}
     <img src="{{ file.path }}" />
   {% endif %}
 {% endfor %}
