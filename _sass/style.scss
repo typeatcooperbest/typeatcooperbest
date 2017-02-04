@@ -396,8 +396,12 @@ input:checked + label {
 .portrait {
   display: inline-block;
   float: left;
-  width: 40%;
+  width: 50%;
   img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $break-small) {
     width: 100%;
   }
 }
@@ -405,7 +409,10 @@ input:checked + label {
 .bio {
   display: inline-block;
   padding-left: 5%;
-  width: 60%;
+  width: 50%;
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+  }
 }
 
 .social {
