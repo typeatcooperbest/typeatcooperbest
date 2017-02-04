@@ -35,7 +35,7 @@
 
 
 
-7. You're done! DON'T click merge. 
+7. You're done! *DON'T click merge.* Just move on to the other steps, or go about your happy life. 
   ![image](https://cloud.githubusercontent.com/assets/4615568/22615328/7ff4a30a-ea47-11e6-8af3-388436855f41.png)
   
 # How to add your images
@@ -60,7 +60,7 @@
 
 
 # How delete an image
-1. Navigate to the folder for your images. Find the image called 'delete-this.png' and click on it.
+1. Navigate to the folder for your images. Find the image called 'delete-this.png' and click on it. *Don't do this unless you have already uploaded other images*
 
 
 
@@ -70,5 +70,6 @@
 
 
 3. Go through the commit process, you can just commit this change directly to `master`. Don't worry about what that means.
+
   ![image](https://cloud.githubusercontent.com/assets/4615568/22615456/0698c736-ea4a-11e6-8636-1418acd7c8ff.png)
 
