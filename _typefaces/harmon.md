@@ -8,12 +8,11 @@ permalink: /harmon/
 sections:
   typefaceBlurb: Designed for formal-but-expressive uses, Harmon combines inspiration from classical inscriptional letterforms with calligraphic flat-brush stylings to create an even and refined character with a twinge of personality. Harmon comes in seven roman weights, ranging from XLight to Heavy, all looking their best when used 14 points and up. Primarily for display purposes, Harmon features long tapered vertical strokes, gently flared serifs, and a few unexpected angles to keep  it interesting.
   bio: Sonja Hernandez leads the Brand & Icon Design teams at Adobe by day, and moonlights as a letterer and novice typedesigner. She lives in Berkeley with her cat & three chickens.
-
-website: yourwebsite
-instagram: yourinstagram
-twitter: yourtwitter
-facebook: yourfacebook
-linkedin: yourlinkedin
+  
+website: sonjahernandez.com
+instagram: super_sonja
+twitter: supersonja
+linkedin: sonjahernandez
 
 
 ---
