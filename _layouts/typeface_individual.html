@@ -13,7 +13,7 @@
 
 <section id="contentBlurb" class=" content--tabs">
 <p>
-{{ page.sections['typefaceBlurb'] | textilize }}
+{{ page.sections['typefaceBlurb'] | markdownify }}
 </p>
 
 {{ content }}
@@ -27,7 +27,7 @@
       <img src="/img/generic-designer.svg">
     </div>
     <p class="bio">
-  {{ page.sections['bio'] | textilize }}
+  {{ page.sections['bio'] | markdownify }}
     </p>
   </div>
   <div class="social">

@@ -252,9 +252,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   @media screen and (max-width: $break-small) {
-    border-bottom: 1px solid $off-white;
     display: block;
-    min-height: 0;
 
     flex-wrap: nowrap;
   }

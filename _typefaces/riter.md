@@ -6,8 +6,13 @@ designer: Shannon Miwa
 permalink: /riter/
 
 sections:
-  typefaceBlurb: A friendly slab-ish serif typeface created for average people doing average things. Riter Basic is for composing friendly memos or basic inter-office communications. Riter Black is for memes and indicating warnings or danger. Have a look around at Riter, a typeface for mundane tasks.
-  bio: Shannon Miwa is a real, living person.
+  typefaceBlurb: |
+    A friendly slab-ish serif typeface created for average people doing average things. Riter Basic is for composing friendly memos or basic inter-office communications. Riter Black is for memes and indicating warnings or danger. Have a look around at Riter, a typeface for mundane tasks.
+
+    what about another paragraph.
+
+  bio: |
+    Shannon Miwa is a person.
 
 website: ampershann.com
 instagram: ampershann
