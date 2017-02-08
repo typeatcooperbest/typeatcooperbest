@@ -2,7 +2,7 @@
 layout: typeface_individual
 title: ickhambay
 typeface: Ickhambay
-designer: Camile Sibucao
+designer: Camille Sibucao
 permalink: /ickhambay/
 
 sections:
