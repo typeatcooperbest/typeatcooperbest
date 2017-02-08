@@ -10,9 +10,8 @@ sections:
   bio: Winston is a lettering artist and type designer from Baton Rouge, LA currently living in Oakland, CA. He dayjobs as a graphic designer and has pursued the letter arts for a little over 5 years. Loves punk bands and band poster design.
 
 website: http://wscully.com
-instagram: instagram.com/wscully
-twitter: twitter.com/winstonscully
-dribbble: dribbble.com/wscully
+instagram: wscully
+twitter: winstonscully
 
 
 ---
