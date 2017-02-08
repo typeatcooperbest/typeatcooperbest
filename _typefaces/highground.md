@@ -6,14 +6,13 @@ designer: Winston Scully
 permalink: /highground/
 
 sections:
-  typefaceBlurb: This is the part about Highground
-  bio: Here's Winston's bio
+  typefaceBlurb: Highground is a typeface that started as a revival of the Rotunda style and formed into display face for punk band posters. It is based on broad edge calligraphy and attempts to emit a feeling of anarchy.
+  bio: Winston is a lettering artist and type designer from Baton Rouge, LA currently living in Oakland, CA. He dayjobs as a graphic designer and has pursued the letter arts for a little over 5 years. Loves punk bands and band poster design.
 
-website: yourwebsite
-instagram: yourinstagram
-twitter: yourtwitter
-facebook: yourfacebook
-linkedin: yourlinkedin
+website: http://wscully.com
+instagram: instagram.com/wscully
+twitter: twitter.com/winstonscully
+dribbble: dribbble.com/wscully
 
 
 ---
