@@ -4,7 +4,7 @@ title: typefaces
 permalink: /typefaces/
 ---
 
-
+<section class="content--main">
 <ul class="list--typefaces">
 {% for typeface in site.typefaces %}
     <li class="js-card list--typefaces__item">
@@ -15,7 +15,7 @@ permalink: /typefaces/
     </li>
 {% endfor %}
 </ul>
-
+</section>
 
 <script>
   var cards = document.getElementsByClassName('js-card');

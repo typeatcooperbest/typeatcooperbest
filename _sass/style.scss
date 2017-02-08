@@ -175,7 +175,9 @@ strong {
 .content {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1300px;
+  max-width: 1000px;
+  padding-left: 3%;
+  padding-right: 3%;
   padding-top: 30px;
   width: 100%;
 
@@ -194,7 +196,7 @@ strong {
 
 
 .title {
-  color: $white;
+  //color: $white;
   font-size: 7rem;
   line-height: 1.1;
   margin-top: 5%;
@@ -203,7 +205,16 @@ strong {
   text-transform: uppercase;
 
   a {
-    color: $white;
+    color: $off-white;
+    display: inline-block;
+    transform: scale(1);
+    transition: all $time ease;
+
+    &:hover {
+      color: $white;
+      transform: scale(1.1);
+      transition: all $time ease;
+    }
   }
 
   @media screen and (max-width: $break-small) {
@@ -306,10 +317,10 @@ p {
 }
 
 .typeface__images {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1000px;
   img {
+    border: 1px solid $black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     width: 100%;
   }
 }
@@ -321,10 +332,12 @@ p {
   clear: both;
   height: 0;
   opacity: 0;
-  padding-left: 2%;
-  padding-right: 2%;
   transition: all ease $time;
   visibility: hidden;
+
+  & > * {
+    display: none;
+  }
 }
 
 input {
@@ -352,16 +365,12 @@ label {
   }
 
   &.label--blurb {
-    margin-left: 2%;
-    padding-left: 2%;
     text-align: left;
 
     justify-content: flex-start;
   }
 
   &.label--bio {
-    margin-right: 2%;
-    padding-right: 2%;
     text-align: right;
 
     justify-content: flex-end;
@@ -383,18 +392,26 @@ input:checked + label {
   opacity: 1;
   transition: all ease $time;
   visibility: visible;
+  & > * {
+    display: block;
+  }
 }
 
 //bio
 .content--bio {
-  margin-bottom: 5%;
-  overflow: hidden;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
 }
 
 .portrait {
   display: inline-block;
   float: left;
-  width: 50%;
+  width: 47%;
   img {
     width: 100%;
   }
@@ -406,24 +423,24 @@ input:checked + label {
 
 .bio {
   display: inline-block;
-  padding-left: 5%;
+  padding-left: 3%;
   width: 50%;
   @media screen and (max-width: $break-small) {
     width: 100%;
+  }
+
+  p:first-child {
+    padding-top: 0;
   }
 }
 
 .social {
   border-bottom: 1px solid $off-white;
   border-top: 1px solid $off-white;
-  display: flex;
   padding-bottom: 1rem;
   padding-top: 1rem;
+  text-align: center;
   width: 100%;
-
-  align-items: center;
-  align-self: baseline;
-  justify-content: center;
 }
 
 .social__link {
@@ -476,7 +493,6 @@ input:checked + label {
 }
 
 .icon-logo-main {
-  color: $white;
   width: 2em;
 
   fill: currentColor;

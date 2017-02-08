@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: about
 title: about
 permalink: /about/
 ---
+
+
+
 ## About Type@Cooper West 2016
 A postgraduate certificate program in typeface design offered through Cooper Union in partnership with Letterform Archive in San Francisco.
 
