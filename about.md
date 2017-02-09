@@ -16,3 +16,9 @@ While the workload was phenomenal and the pressure tremendous &mdash; _wills wer
 
 ## Special Thanks
 The Type@Cooper West 2016 students would like to take this internet space to declare their thanks to the many people that made the program possible.
+
+<div class="about--images">
+<img src="/img/cooper-group-condensed.jpg" />
+<img src="/img/cooper-group-italic.jpg" />
+<img src="/img/cooper-group-certificates.jpg" />
+</div>
