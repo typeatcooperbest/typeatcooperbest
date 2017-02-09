@@ -7,13 +7,12 @@ permalink: /victus/
 
 sections:
   typefaceBlurb: This is the part about Victus
-  bio: Here's Gen's bio
-
-website: yourwebsite
-instagram: yourinstagram
-twitter: yourtwitter
-facebook: yourfacebook
-linkedin: yourlinkedin
+  bio: Gen Ramírez is a passionate calligrapher, lettering artist and type designer from Guadalajara, Mexico. He enjoys Salsa music almost as much as making letterforms, well, not so much. He is from Guadalajara, México
+website: http://genramirez.com/
+instagram: genramirez
+twitter: genramirez
+facebook: genraro
+linkedin: genramirez
 
 
 
