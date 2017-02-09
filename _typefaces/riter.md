@@ -7,11 +7,11 @@ permalink: /riter/
 
 sections:
   typefaceBlurb: |
-    A friendly slab-ish serif typeface created for average people doing average things. Riter Basic is for composing friendly memos or basic inter-office communications. Riter Black is for memes and indicating warnings or danger. Have a look around at Riter, a typeface for mundane tasks.
+    A friendly slab-ish serif typeface created for average people doing average things. Riter Basic is for composing friendly memos or basic inter-office communications. Riter Black is for memes and indicating warnings or danger. 
 
-    what about another paragraph.
+    The Riter Family excels at mundane tasks. If you are using Comic Sans, Arial or Times New Roman, you could be using Riter instead!
   bio: |
-    Shannon Miwa is a person.
+    Shannon Miwa is a designer currently living in San Francisco, CA. She is still deciding what she wants to be when she grows up.
 
 website: ampershann.com
 instagram: ampershann
