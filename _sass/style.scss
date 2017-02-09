@@ -443,6 +443,15 @@ input:checked + label {
   @media screen and (max-width: $break-small) {
     width: 100%;
   }
+  p {
+    a {
+      color: white;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 
   p:first-child {
     padding-top: 0;
