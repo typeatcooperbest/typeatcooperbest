@@ -11,7 +11,7 @@ sections:
 
     The Riter Family excels at mundane tasks. If you are using Comic Sans, Arial or Times New Roman, you could be using Riter instead!
   bio: |
-    Shannon Miwa is a designer currently living in San Francisco, CA. She is still deciding what she wants to be when she grows up.
+    Shannon Miwa is a product designer at Braintree&mdash;one of those tech companies&mdash;currently living in San Francisco, CA. She enjoys a variety of letter making and design activities, but she is still deciding what she wants to be when she grows up.
 
 website: ampershann.com
 instagram: ampershann
