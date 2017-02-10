@@ -138,7 +138,41 @@ em {
     margin-top: 1rem;
     width: 100%;
   }
+
+  .about__image {
+    position: relative;
+  }
+
+  .caption {
+    background: rgba($black, 0.7);
+    bottom: 0;
+    display: block;
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+  }
 }
+
+.thanks {
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+.thanks__list {
+  color: tomato;
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+
 
 .header--main {
   background: linear-gradient(aquamarine, teal, purple);
