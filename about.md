@@ -57,6 +57,8 @@ The Type@Cooper West 2016 students would like to take this internet space to dec
   </ul>
 </div>
 
+## And now for some adorable photos
+
 <div class="about--images">
   <div class="about__image">
     <img src="/img/cooper-group-condensed.jpg" />
